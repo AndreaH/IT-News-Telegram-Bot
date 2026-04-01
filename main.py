@@ -22,11 +22,12 @@ def get_summarized_content_with_gemini(news_list):
     
     prompt = f"""
     당신은 IT 및 금융 전문 칼럼니스트입니다. 아래 제공된 뉴스 리스트를 바탕으로 텔레그램 뉴스 레터를 작성하세요.
+    오늘의 IT 및 AI 뉴스 트렌드를 **'3단 레이아웃'**으로 브리핑해줘.
     
-    [반드시 준수해야 할 형식]:
-    1. 🌏 Infrastructure: 새로운 모델 배포 방식이나 클라우드 비용 효율화 기술이 있는가?
-    2. 🇰🇷 Framework & Language: 최근 급부상하는 라이브러리나 언어적 변화가 있는가?
-    3. 💡 Developer Experience (DX): 개발 생산성을 비약적으로 높여줄 AI 도구나 방법론이 있는가?)
+    레이아웃 구성:
+    🌏 Global Big Tech: MS, Google, Apple, Meta 등 빅테크의 주요 행보 2가지
+    🛠 Open Source & Tools: 새롭게 공개된 오픈소스 모델이나 개발 도구 소식 2가지
+    💡 Market Insight: 이 뉴스들이 관통하는 하나의 거대한 흐름(The Big Picture) 설명
     
     [작성 규칙]:
     - [현황 - 기술적 임팩트 - 우리 서비스 적용 시 고려사항] 순서로 요약해줘
