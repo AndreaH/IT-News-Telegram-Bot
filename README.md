@@ -20,10 +20,10 @@ GitHub Settings -> Secrets -> Actions에 다음 항목을 등록하세요:
 - `requirements.txt`: 의존성 라이브러리
 
 
-#🚀 IT & AI Trend Telegram Bot
+# 🚀 IT & AI Trend Telegram Bot
 A smart news briefing bot powered by the Google Gemini API and GitHub Actions.
 
-##📌 Key Features
+## 📌 Key Features
 - **Automated Scraping: Real-time data collection based on Google News RSS.
 
 - **AI Insights: Three-tier layout summaries powered by the Gemini 1.5 Flash model.
@@ -32,7 +32,7 @@ A smart news briefing bot powered by the Google Gemini API and GitHub Actions.
 
 - **HTML Readability: Professional newsletter-style layout formatting.
 
-##⚙️ Setup (Secrets)
+## ⚙️ Setup (Secrets)
 Register the following items in GitHub Settings -> Secrets -> Actions:
 
 1. `TELEGRAM_TOKEN`: Bot token
@@ -41,7 +41,7 @@ Register the following items in GitHub Settings -> Secrets -> Actions:
 
 3. `GEMINI_API_KEY`: Gemini API Key
 
-##📂 File Structure
+## 📂 File Structure
 - `main.py`: Main logic
 
 - `.github/workflows/news_bot.yml`: Automation configuration
